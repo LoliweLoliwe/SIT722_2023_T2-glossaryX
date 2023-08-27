@@ -120,13 +120,13 @@ app.get('/table', (req, res) => {
         },
         {
             number: '17',
-            term: 'Acceptance Test',
+            term: 'Acceptance test',
             description: 'Gillis, A.S. (2021). Acceptance Testing. Available at: https://www.techtarget.com/searchsoftwarequality/definition/acceptance-test.',
             reference: 'Gillis, A.S. (2021). Acceptance Testing. Available at: https://www.techtarget.com/searchsoftwarequality/definition/acceptance-test.'
         },
         {
             number: '18',
-            term: 'Configuration Test',
+            term: 'Configuration test',
             description: 'is a software testing technique in which the software application is tested with multiple combinations of software and hardware in order to evaluate the functional requirements and find out optimal configurations under which the software application works without any defects or flaws.',
             reference: 'Guru99. (n.d.). What is Configuration Testing? Example Test Cases. Available at: https://www.guru99.com/configuration-testing.html'
         },
@@ -141,8 +141,67 @@ app.get('/table', (req, res) => {
             term: 'Staging',
             description: 'is an environment for computer people to test and view their application and changes before they go live to the world (production).',
             reference: 'CommonPlaces. (n.d.). What is Staging? Available at: https://www.commonplaces.com/blog/web-development-what-is-staging/'
-        }
-    ];
+        },
+        {
+            number: '21',
+            term: 'Container',
+            description: 'is an abstraction at the app layer that packages code and dependencies together. ',
+            reference: 'Docker. (n.d.). Use containers to Build, Share and Run your applications. Available at: https://www.docker.com/resources/what-container/'
+        },
+        {
+            number: '22',
+            term: 'Docker Compose',
+            description: 'is a tool for running multi-container applications on Docker defined using the Compose file format.',
+            reference: 'GitHub Inc. (n.d.). Compose. Available at: https://github.com/docker/compose'
+        },
+        {
+            number: '23',
+            term: 'YAML',
+            description: 'is a human-friendly data serialization language for all programming languages.',
+            reference: 'YAML. (n.d.). YAML. Available at: https://yaml.org/'
+        },
+        {
+            number: '24',
+            term: 'Docker image',
+            description: 'is a bootable snapshot of a server (or microservice), including all the code, dependencies, and assets that it needs to run.',
+            reference: 'Davis, A. (2021). Bootstrapping Microservices with Docker, Kubernetes, and Terraform. Manning Publication.'
+        },
+        {
+            number: '25',
+            term: 'API key',
+            description: 'is a unique identifier that authenticates requests associated with your project for usage and/or may result in billing.',
+            reference: 'Google. (n.d.). Use API Keys. Available at: https://developers.google.com/maps/documentation/javascript/get-api-key'
+        },
+        {
+            number: '26',
+            term: 'Lightweight package',
+            description: 'is a computer program that is designed to have a small memory footprint (RAM usage) and low CPU usage, overall a low usage of system resources.',
+            reference: 'Wikipedia. (n.d.). Lightweight software. Available at: https://en.wikipedia.org/wiki/Lightweight_software '
+        },
+        {
+            number: '27',
+            term: 'API Gateway',
+            description: 'is a data-plane entry point for API calls that performs request processing based on defined policies, including authentication, authorization, access control, SSL/TLS offloading, routing, and load balancing.',
+            reference: 'F5 NGINX. (n.d.). API Gateway. Available at: https://www.nginx.com/learn/api-gateway/'
+        },
+        {
+            number: '28',
+            term: 'Infrastructure as Code',
+            description: 'uses DevOps methodology and versioning with a descriptive model to define and deploy infrastructure, such as networks, virtual machines, load balancers, and connection topologies.',
+            reference: 'Microsoft (2022). What is infrastructure as code (IaC)? Available at: https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code'
+        },
+        {
+            number: '29',
+            term: 'REST APIs',
+            description: 'are set of rules that define how applications or devices can connect to and communicate via HTTP requests to perform standard database functions like creating, reading, updating, and deleting records (also known as CRUD) within a resource.',
+            reference: 'ABI. (n.d.). What is a REST API? Available at: https://www.ibm.com/topics/rest-apis'
+        },
+        {
+            number: '30',
+            term: 'MongoDB',
+            description: 'is a NoSQL database program, which uses JSON-like documents with optional relational schemas.',
+            reference: 'Wikipedia. (n.d.). MongoDB. Available at: https://en.wikipedia.org/wiki/MongoDB'
+        }];
 
     // Render method takes two parameter
     // first parameter is the ejs file to 
