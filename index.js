@@ -1,7 +1,6 @@
 var express = require('express');
 //var bodyParser = require('body-parser');
 var cors = require('cors');
-//const { table } = require('console');
 
 var app = express();
 //app.use(bodyParser());
@@ -16,8 +15,7 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
     var twou = "I am here...";
     res.render('pages/index', { twou: twou});
-});
-          
+});      
 
 // table page
 app.get('/table', (req, res) => {
@@ -201,6 +199,66 @@ app.get('/table', (req, res) => {
             term: 'MongoDB',
             description: 'is a NoSQL database program, which uses JSON-like documents with optional relational schemas.',
             reference: 'Wikipedia. (n.d.). MongoDB. Available at: https://en.wikipedia.org/wiki/MongoDB'
+        },
+        {
+            number: '31',
+            term: 'Root directory',
+            description: 'is a the hierarchy file system used on a computer to organize files that contains all other directories and files on a system and is marked by a slash (/).',
+            reference: 'Seobility. (n.d.). Root directory. Available at: https://www.seobility.net/en/wiki/Root_Directory'
+        },
+        {
+            number: '32',
+            term: 'Declarative management',
+            description: 'refers to the class of tools that allow operators to declare a desired state of some system (be it a physical machine, EC2 VPC, IOS 15, an entire Google Cloud account, or anything else), and then allow the system to automatically compare that desired state to the present state, and then automatically update the managed system to match the declared state.',
+            reference: 'Elhage, N. (2019). The architecture of declarative configuration management. Available at: https://blog.nelhage.com/post/declarative-configuration-management/'
+        },
+        {
+            number: '33',
+            term: 'HTTP',
+            description: 'stands for "Hypertext Transfer Protocol" and is the protocol used to transfer data over the web. Also, it defines commands such as GET and POST, which are used to handle form submissions on websites.',
+            reference: 'TechTerms.com. HTTP. Available at: https://techterms.com/definition/http'
+        },
+        {
+            number: '34',
+            term: 'Terraform',
+            description: 'is an open-source tool and a Hashicorp-developed multi-cloud, infrastructure-as-code solution that uses the declarative Hashicorp Configuration Language to generates an execution plan, manage and then deploy it',
+            reference: 'Unidevops. (2022). What is Terraform in DevOps? Available at: https://www.devopsuniversity.org/what-is-terraform-in-devops/'
+        },
+        {
+            number: '35',
+            term: 'Scripts',
+            description: 'are used by the engineering teams as a language where instructions are provided for a run time environment as part of system administration',
+            reference: 'Mannambeth, M. (2021). DevOps: Beginners Guide to Scripting. Available at: https://kodekloud.com/blog/devops-scripts/#'
+        },
+        {
+            number: '36',
+            term: 'Hashicorp Configuration Language (HCL)',
+            description: 'is a toolkit for creating structured configuration languages that are both human- and machine-friendly, for use with command-line tools. It is  both a native syntax (inspired by libucl, nginx configuration, and others), intended to be pleasant to read and write for humans, and a JSON-based variant that is easier for machines to generate and parse.',
+            reference: ' GitHub Inc. (n.d.). HCL. Available at: https://github.com/hashicorp/hcl'
+        },
+        {
+            number: '37',
+            term: 'Container registry',
+            description: 'is a repository — or a collection of repositories — that stores container images, which includes all the components that make up an application.',
+            reference: ' Snyk Limited. (n.d.). Container registry security: security concerns for using a container registry. Available at: https://snyk.io/learn/container-security/container-registry-security/'
+        },
+        {
+            number: '38',
+            term: 'RabbitMQ',
+            description: 'is a messaging broker - an intermediary for messaging, which uses asynchronous, decoupling applications by separating sending and receiving data.',
+            reference: 'RabbitMQ. (n.d.). What can RabbitMQ do for you? Available at: https://www.rabbitmq.com/features.html'
+        },
+        {
+            number: '39',
+            term: 'Variables',
+            description: 'are fundamental constructs in every programming language. We use variables to store temporary values so that they can assist programming logic in simple as well as complex programs. But, in Terraform, we use them with function in the form of arguments, return values, and local variables. ',
+            reference: 'Ninawe, S. (2023). How to Use Terraform Variables (Locals, Input, Output, Environment). Available at: https://spacelift.io/blog/how-to-use-terraform-variables'
+        },
+        {
+            number: '40',
+            term: 'Code repository',
+            description: 'is a storage location for code and other software development assets, such as documentation, tests, and scripts. They are often used to manage and organize a software project/s codebase and collaborate with other project developers.',
+            reference: 'Sonatype. (n.d.). What are Code Repositories? Available at: https://www.sonatype.com/launchpad/what-are-code-repositories'
         }];
 
     // Render method takes two parameter
