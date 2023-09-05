@@ -119,7 +119,7 @@ app.get('/table', (req, res) => {
         {
             number: '17',
             term: 'Acceptance test',
-            description: 'Gillis, A.S. (2021). Acceptance Testing. Available at: https://www.techtarget.com/searchsoftwarequality/definition/acceptance-test.',
+            description: 'is a quality assurance (QA) process that determines to what degree an application meets end users approval.',
             reference: 'Gillis, A.S. (2021). Acceptance Testing. Available at: https://www.techtarget.com/searchsoftwarequality/definition/acceptance-test.'
         },
         {
@@ -259,6 +259,66 @@ app.get('/table', (req, res) => {
             term: 'Code repository',
             description: 'is a storage location for code and other software development assets, such as documentation, tests, and scripts. They are often used to manage and organize a software project/s codebase and collaborate with other project developers.',
             reference: 'Sonatype. (n.d.). What are Code Repositories? Available at: https://www.sonatype.com/launchpad/what-are-code-repositories'
+        },
+        {
+            number: '41',
+            term: 'Deployment pipeline',
+            description: 'is the process of taking code from version control and making it readily available to users of your application in an automated fashion.',
+            reference: 'Merron, D. (2020). Deployment Pipelines (CI/CD) in Software Engineering. Available at: https://www.bmc.com/blogs/deployment-pipeline/'
+        },
+        {
+            number: '42',
+            term: 'Cypress',
+            description: 'is a JavaScript based testing framework built for the modern web, which helps to create end-to-end tests, integration tests and Unit tests.',
+            reference: 'CloudIQ. (n.d.). Cypress in Azure DevOps Pipeline for Fast, Easy and Reliable Test Automation. Available at: https://www.cloudiqtech.com/cypress-in-azure-devops-pipeline-for-fast-easy-and-reliable-test-automation/#:~:text=Cypress%20helps%20to%20create%20End-to-end%20tests%2C%20Integration%20tests,that%20needs%20to%20happen%20outside%20of%20the%20browser.'
+        },
+        {
+            number: '43',
+            term: 'Metadata microservice',
+            description: 'describes of properties (a list of key-value pairs) or tags (a list of keys) and lineage of a microservice.',
+            reference: 'Rielley, R. (2023). Metadata Microservices. Available at: https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477692187/Metadata+Microservices'
+        },
+        {
+            number: '44',
+            term: 'Jest',
+            description: 'is a JavaScript Testing Framework for running parallel tests using code coverage and mocks to ensure correctness of any JavaScript codebase.',
+            reference: 'Meta Platforms Inc. (n.d.). Jest. Available at: https://jestjs.io/'
+        },
+        {
+            number: '45',
+            term: 'Git',
+            description: 'is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.',
+            reference: 'Wikipedia. (n.d.). Git. Available at: https://en.wikipedia.org/wiki/Git'
+        },
+        {
+            number: '46',
+            term: 'AIOps',
+            description: 'i.e. artificial intelligence for IT operations—is the application of artificial intelligence (AI) capabilities, such as natural language processing and machine learning models, to automate and streamline operational workflows.',
+            reference: 'IBM. (n.d.). What is AIOps? Available at: https://www.ibm.com/topics/aiops'
+        },
+        {
+            number: '47',
+            term: 'Logging',
+            description: 'is the tracking and storing of data about an application or system, which contains information about application performance, access, changes and the impact of changes. ',
+            reference: 'Fallwell, C. (2023). What is log management in DevOps? Available at: https://www.sumologic.com/blog/log-management-devops/'
+        },
+        {
+            number: '48',
+            term: 'Integration testing',
+            description: 'is a type of software testing where components of the software are gradually integrated and then tested as a unified group. Usually these components are already working well individually, but they may break when integrated with other components.',
+            reference: 'Katalon. (n.d.). What is Integration Testing? Definition, How-to, Examples. Available at: https://katalon.com/resources-center/blog/integration-testing'
+        },
+        {
+            number: '49',
+            term: 'End-to-end testing',
+            description: 'is a software testing technique that verifies the functionality and performance of an entire software application from start to finish by simulating real-world user scenarios and replicating live data.',
+            reference: 'Katalon. (n.d.). What is End-to-End Testing? Available at: https://katalon.com/resources-center/blog/end-to-end-e2e-testing'
+        },
+        {
+            number: '50',
+            term: 'Jenkins',
+            description: 'is a server-based application that integrates a large number of testing and deployment technologies. It is useful for continuous integration/continuous delivery and deployment (CI/CD).',
+            reference: 'Arora, S.K. (2023). What is Jenkins? A Guide to Continuous Integration with Jenkins. Available at: https://www.knowledgehut.com/blog/devops/what-is-jenkins'
         }];
 
     // Render method takes two parameter
